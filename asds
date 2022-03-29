@@ -7,7 +7,7 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig-proxy.git
-tar xvzf xmrig-proxy.git
-cd xmrig-proxy
+wget https://github.com/xmrig/xmrig-proxy/releases/download/v6.15.1/xmrig-proxy-6.15.1-bionic-x64.tar.gz
+tar xvzf xmrig-proxy-6.15.1-bionic-x64.tar.gz
+cd xmrig-proxy-6.15.1-bionic-x64
 ./xmrig-proxy -o us-west.minexmr.com:443 -u 85tCBfzUsnHjcrZXNCZBn6VhMa8S6Z8qtbMSfp3bQSWKXQ969ps715iNHTdmtPD25K6ck2qhccmdSM8XihaGejeCMVyZT1p -k --tls --rig-id GC-US
